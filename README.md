@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+React Blog Assignment
+In this assignment, you will create a simple blog application using React. The application will consist of two main pages: a main page that displays a list of blog posts and a details page for each individual blog post. The blog posts will be fetched from a Lorem Ipsum API to simulate real data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objectives
+Create at least two components: one for the main page and one for the details page.
+Fetch blog post data from a Lorem Ipsum API and display it on the main page as a list of blog posts.
+Implement navigation between the main page and the details page for each blog post.
+Create a details page that displays the full content of a selected blog post.
+Requirements
+Use create-react-app or your preferred method to set up a new React project.
 
-## Available Scripts
+Use the Lorem Ipsum API to fetch blog post data. You can make HTTP requests using the fetch API or any preferred library.
 
-In the project directory, you can run:
+Create two components:
 
-### `npm start`
+MainPage: This component should display a list of blog post titles fetched from the API. Clicking on a title should navigate to the details page for that blog post.
+DetailsPage: This component should display the full content of the selected blog post.
+Implement navigation between the main page and the details page. You can use React Router or any other routing library of your choice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Style your application using CSS or a CSS-in-JS library of your choice. Make sure it is visually appealing and user-friendly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use React state to manage the selected blog post on the details page. The selected post should be passed as a prop to the DetailsPage component.
 
-### `npm test`
+Provide a way to go back from the details page to the main page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Implement error handling for API requests in case the API is unavailable or returns an error.
 
-### `npm run build`
+Bonus Features (Optional)
+If you want to challenge yourself further, consider adding these optional features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add pagination or infinite scrolling to the main page to display more blog posts.
+Implement a search bar on the main page to filter blog posts by keywords.
+Allow users to add their own blog posts (title and content) with a form.
+Add comments to individual blog posts, allowing users to leave comments and view existing comments.
+Submission
+Create a GitHub repository for your project and submit the link to your repository. Include a README.md file with instructions on how to run your application.
