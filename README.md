@@ -1,36 +1,40 @@
-React Blog Assignment
+# React Blog Assignment
+
 In this assignment, you will create a simple blog application using React. The application will consist of two main pages: a main page that displays a list of blog posts and a details page for each individual blog post. The blog posts will be fetched from a Lorem Ipsum API to simulate real data.
 
-Objectives
-Create at least two components: one for the main page and one for the details page.
-Fetch blog post data from a Lorem Ipsum API and display it on the main page as a list of blog posts.
-Implement navigation between the main page and the details page for each blog post.
-Create a details page that displays the full content of a selected blog post.
-Requirements
-Use create-react-app or your preferred method to set up a new React project.
+## Objectives
+1. Create at least two components: one for the main page and one for the details page.
+2. Fetch blog post data from a Lorem Ipsum API and display it on the main page as a list of blog posts.
+3. Implement navigation between the main page and the details page for each blog post.
+4. Create a details page that displays the full content of a selected blog post.
 
-Use the Lorem Ipsum API to fetch blog post data. You can make HTTP requests using the fetch API or any preferred library.
+## Requirements
+1. Use the Lorem Ipsum API to fetch blog post data. You can make HTTP requests using the fetch API or any preferred library.
+2. Create two components:
+   - `MainPage`: This component should display a list of blog post titles fetched from the API. Clicking on a title should navigate to the details page for that blog post.
+   - `DetailsPage`: This component should display the full content of the selected blog post.
+3. Implement navigation between the main page and the details page. You can use React Router or any other routing library of your choice.
+4. Style your application using CSS or a CSS-in-JS library of your choice. Make sure it is visually appealing and user-friendly.
+5. Use React state to manage the selected blog post on the details page. The selected post should be passed as a prop to the `DetailsPage` component.
+6. Provide a way to go back from the details page to the main page.
+7. Implement error handling for API requests in case the API is unavailable or returns an error.
 
-Create two components:
-
-MainPage: This component should display a list of blog post titles fetched from the API. Clicking on a title should navigate to the details page for that blog post.
-DetailsPage: This component should display the full content of the selected blog post.
-Implement navigation between the main page and the details page. You can use React Router or any other routing library of your choice.
-
-Style your application using CSS or a CSS-in-JS library of your choice. Make sure it is visually appealing and user-friendly.
-
-Use React state to manage the selected blog post on the details page. The selected post should be passed as a prop to the DetailsPage component.
-
-Provide a way to go back from the details page to the main page.
-
-Implement error handling for API requests in case the API is unavailable or returns an error.
-
-Bonus Features (Optional)
+## Bonus Features (Optional)
 If you want to challenge yourself further, consider adding these optional features:
+1. Add pagination or infinite scrolling to the main page to display more blog posts.
+2. Implement a search bar on the main page to filter blog posts by keywords.
+3. Allow users to add their own blog posts (title and content) with a form.
+4. Add comments to individual blog posts, allowing users to leave comments and view existing comments.
 
-Add pagination or infinite scrolling to the main page to display more blog posts.
-Implement a search bar on the main page to filter blog posts by keywords.
-Allow users to add their own blog posts (title and content) with a form.
-Add comments to individual blog posts, allowing users to leave comments and view existing comments.
-Submission
+## Submission
 Create a GitHub repository for your project and submit the link to your repository. Include a README.md file with instructions on how to run your application.
+
+## Evaluation
+Your assignment will be evaluated based on the following criteria:
+1. **Functionality:** Does the application meet the basic requirements, including fetching data, navigation, and displaying blog posts and their details?
+2. **Code Quality:** Is the code well-organized, readable, and maintainable? Are components properly structured?
+3. **User Interface:** Is the application visually appealing and user-friendly? Is it styled appropriately?
+4. **Error Handling:** Does the application handle errors gracefully, such as API request failures?
+5. **Bonus Features:** If you implemented any bonus features, are they functional and well-implemented?
+
+Good luck with your React blog assignment! Feel free to reach out if you have any questions or need assistance along the way.
