@@ -25,16 +25,3 @@ If you want to challenge yourself further, consider adding these optional featur
 2. Implement a search bar on the main page to filter blog posts by keywords.
 3. Allow users to add their own blog posts (title and content) with a form.
 4. Add comments to individual blog posts, allowing users to leave comments and view existing comments.
-
-## Submission
-Create a GitHub repository for your project and submit the link to your repository. Include a README.md file with instructions on how to run your application.
-
-## Evaluation
-Your assignment will be evaluated based on the following criteria:
-1. **Functionality:** Does the application meet the basic requirements, including fetching data, navigation, and displaying blog posts and their details?
-2. **Code Quality:** Is the code well-organized, readable, and maintainable? Are components properly structured?
-3. **User Interface:** Is the application visually appealing and user-friendly? Is it styled appropriately?
-4. **Error Handling:** Does the application handle errors gracefully, such as API request failures?
-5. **Bonus Features:** If you implemented any bonus features, are they functional and well-implemented?
-
-Good luck with your React blog assignment! Feel free to reach out if you have any questions or need assistance along the way.
